@@ -1,0 +1,212 @@
+#header
+{
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    padding: 0px;
+}
+.overlay
+{
+    background-color: rgba(255, 255 255, 0.6);
+    color: blue;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.section
+{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 35px;
+    border-radius: 6px;
+}
+.content
+{
+    border: 2px solid violet;
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+}
+.left
+{
+    float: left;
+    width: 30%;
+}
+.right
+{
+    float: right;
+    width: 30px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+p.box
+{
+    margin-right:0px ;
+    padding-right: 0px;
+}
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter 4: Comprehensive CSS Layouts</title>
+<style>
+/* ============================================
+   GLOBAL STYLES & RESET
+   These styles apply to the entire page
+============================================ */
+* {
+  box-sizing: border-box; /* Makes padding and border included in element's width/height */
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #1e3c72;
+  margin: 25px 0 15px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #1e3c72;
+}
+
+h3 {
+  color: #2a5298;
+  margin: 20px 0 10px;
+}
+
+/* Container for each section */
+.section {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+.block-container {
+  border: 2px dashed #ccc;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.block-item {
+  display: block; /* This is the default for div, h1-h6, p, etc. */
+  background-color: #4a90e2;
+  color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+<section class="section">
+    <h2>Flexbox (Flexible Box Layout)</h2>
+    <p><strong>Flexbox</strong> is a one-dimensional layout method for arranging items in rows or columns.</p>
+    
+    <div class="example-box">
+      <h3>display: flex</h3>
+      <p>This container has <code>display: flex</code> applied:</p>
+      
+      <div class="flex-container">
+        <div class="flex-item">Flex Item 1</div>
+        <div class="flex-item">Flex Item 2</div>
+        <div class="flex-item">Flex Item 3</div>
+      </div>
+      
+      <div class="code-block">
+        .flex-item {
+
+        flex: 1; /* Allows items to grow and shrink equally */
+        justify-content: center;  
+        /*other options: flex-start; (Default - items at the start), center; (Items centered along main axis) flex-end; (Items at the end) */
+        /*space-between; (Space between items) space-around; (Space around items)*/
+  
+        align-items: center;
+        /*other options: flex-start; (Default - Items aligned at the top), center; (Items centered vertically) flex-end; (Items aligned at the bottom) */
+        /*stretch; (Items stretch to fill container (default)))*/
+      }
+
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="section">
+    <h2>CSS Grid Layout</h2>
+    <p><strong>CSS Grid</strong> is a two-dimensional layout system for creating complex grid-based designs.</p>
+    
+    <div class="example-box">
+      <h3>display: grid</h3>
+      <p>This container has <code>display: grid</code> applied:</p>
+      
+      <div class="grid-container grid-cols">
+        <div class="grid-item">Grid Item 1</div>
+        <div class="grid-item">Grid Item 2</div>
+        <div class="grid-item">Grid Item 3</div>
+        <div class="grid-item">Grid Item 4</div>
+        <div class="grid-item">Grid Item 5</div>
+        <div class="grid-item">Grid Item 6</div>
+      </div>
+      
+      <div class="code-block">
+/* CSS for grid container */
+
+/* Different grid-template-columns examples */
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+}
+
+.grid-cols-fixed {
+  grid-template-columns: 100px 200px 150px; /* Fixed width columns */
+}
+
+.grid-cols-mixed {
+  grid-template-columns: 1fr 2fr 1fr; /* Mixed ratio columns */
+}
+
+.grid-cols-responsive {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+}
+      </div>
+    </div>
+  
+</section>
+
+
+  </section>
+</main>
+
+<footer>
+  <p>Comprehensive CSS Layouts | For First Year Engineering Students</p>
+  <p>Resize browser window to see responsive behavior</p>
+</footer>
+
+
+</script>
+</body>
+</html>

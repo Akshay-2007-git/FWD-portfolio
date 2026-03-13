@@ -1,0 +1,47 @@
+body{
+    background-image: url("bmw-3-0-csl-mi-05.avif");
+    background-size: cover;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+}
+
+p{
+    font-size: 50px;
+    color: #070707;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    margin-right: 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+.bmw{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serifs;
+    padding: 10px;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    border-radius: 100px;
+}

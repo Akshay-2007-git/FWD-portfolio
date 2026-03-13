@@ -1,0 +1,44 @@
+body {
+    
+    background-image: linear-gradient(white,black);
+    margin: 0;
+    padding: 0;
+}
+
+.education-section {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.education-section h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.edu-box {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 5px solid black;
+}
+
+.edu-box h2 {
+    margin: 10px ;
+    color: dodgerblue;
+}
+
+.edu-box p {
+    margin: 6px ;
+    font-size: 18px;
+}
+nav button{
+    padding: 20px;
+    margin: 10px;
+    border:none;
+    background:lightskyblue;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+}

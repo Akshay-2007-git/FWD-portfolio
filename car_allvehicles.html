@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Our Vehicles</title>
+        <hr>
+           <style>
+    .cars-container {
+    display: flex;
+    gap: 40px;
+}
+
+.car-card {
+    text-align: center;
+    gap: 50px;
+}
+
+.car-card img {
+    width: 300px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+button {
+    padding:  15px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+.saving{
+    background-color: lightslategray;
+}
+.btn{
+    color: white;
+    background-color: pink;
+}
+.pa{
+            font-size: 24px;
+        color: darkblue;
+        position: relative;
+        animation-name: moveText;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    @keyframes moveText{
+        from{
+            left:0%;
+        }
+        to{
+            left:50%;
+        }
+
+    }
+   </style>
+    </head>
+    <body>
+      <div class="cars-container">
+
+    <div class="car-card">
+        <img src="bmw1.jpg">
+        <h3>BMW 5 Series</h3>
+        <p>₹65,00,000</p>
+        <button><a href="car_book.html"> BOOK A TEST DRIVE</a></button>
+        
+    </div>
+
+    <div class="car-card">
+        <img src="bmw2.jpg">
+        <h3>BMW M4</h3>
+        <p>₹1,20,00,000</p>
+        <button><a href="car_book.html"> BOOK A TEST DRIVE</a></button>
+        
+    </div>
+
+    <div class="car-card">
+        <img src="bmw3.jpg">
+        <h3>BMW X5</h3>
+        <p>₹95,00,000</p>
+        <button><a href="car_book.html"> BOOK A TEST DRIVE</a></button>
+        
+    </div>
+
+    <div class="car-card">
+        <img src="bmw4.jpg">
+        <h3>BMW i7</h3>
+        <p>₹2,00,00,000</p>
+        <button><a href="car_book.html">BOOK A TEST DRIVE</a></button>
+        
+    </div>
+    
+
+</div>
+<br>
+<br>
+<center><button class="btn"><a href="car_features.html">BMW FEATURES</a></button></center>
+
+<br>
+    <hr>
+    
+<div class="saving">
+    <br><br>
+    <center>
+    <p class="pa">Savings of UPTO 100% on Road Tax on M4 and i7</p>
+    <p><u>CONTACT US</u></p>
+    <p>Ph: +916302470598</p>
+    <p>Email:bmwakshayautomotive@gmail.com</p>
+    </center>
+<br><br>
+</div>
+
+    </body>
+</html>
